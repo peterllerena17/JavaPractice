@@ -1,5 +1,7 @@
-package exercises;
+package objects;
 
+
+import org.w3c.dom.css.Rect;
 
 // Object Practice
 public class Rectangle {
@@ -7,6 +9,12 @@ public class Rectangle {
     // Rectangle object
     private double length;
     private double width;
+
+
+    public Rectangle(){
+        length = 0;
+        width = 0;
+    }
 
 
     public Rectangle(double length, double width){
@@ -27,9 +35,7 @@ public class Rectangle {
     public double getLength(){
         return length;
     }
-    public void setLength(double length){
-        this.length = length;
-    }
+    public void setLength(double length){ this.length = length; }
     public double getWidth(){
         return width;
     }
