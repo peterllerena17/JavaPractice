@@ -7,8 +7,9 @@ import org.w3c.dom.css.Rect;
 public class Rectangle {
 
     // Rectangle object
-    private double length;
-    private double width;
+    protected double length;
+    protected double width;
+    protected double sides = 4;
 
 
     public Rectangle(){
@@ -41,6 +42,10 @@ public class Rectangle {
     }
     public void setWidth(double width){
         this.width = width;
+    }
+
+    public void print(){
+        System.out.println("I am a rectangle");
     }
 
 }
