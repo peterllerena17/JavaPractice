@@ -13,6 +13,8 @@ public class Maps {
         fruitCalories.put("lemon", 20);
         fruitCalories.put("orange", 85);
 
+        fruitCalories.forEach((k, b) -> System.out.println(k + " :" + b));
+
 
         System.out.println("Apple: " + fruitCalories.get("Apple"));
 
